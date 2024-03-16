@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Norman Borlaug</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is the Survey form peragraph</p>
+    <form id="survey-form">
+        <div class="input-element">
+            <label id="name-label">
+                    Name
+                </label>
+            <input placeholder="Enter Name" id="name" type="text" required>
+        </div>
+        <div class="input-element">
+            <label id="email-label">
+                    Email
+                </label>
+            <input placeholder="Enter Email" id="email" type="email" required>
+        </div>
+        <div class="input-element">
+            <label id="number-label">
+                    Age
+                </label>
+            <input placeholder="Enter Number" id="number" min="18" max="100" type="number" required>
+        </div>
+        <div class="input-element">
+            <label id="select-label">
+                    Who is your Favorite Politition?
+                </label>
+            <Select id="dropdown">
+                    <option>Select One</option>
+                    <option>Imran Khan</option>
+                    <option>Zartaj Gul</option>
+                    <option>Ali Muhammad Khan</option>
+                </select>
+        </div>
+        <div class="input-element">
+            <label>Have you ever meet with Imran Khan?</label>
+            <div>
+                <label>
+                        <input value="yes" type="radio" name="politition">Yes
+                    </label>
+            </div>
+            <div>
+                <label>
+                        <input value="no" type="radio" name="politition">No
+                    </label>
+            </div>
+        </div>
+        <div class="input-element">
+            <label>Who is the grate leader of Pakistan?</label>
+            <div>
+                <label>
+                        <input value="imran" type="checkbox" name="Leader">Imran Khan
+                    </label>
+            </div>
+            <div>
+                <label>
+                        <input value="zulfiqar" type="checkbox" name="Leader">Zulfiqar ali bhutto
+                    </label>
+            </div>
+        </div>
+        <div class="input-element">
+            <label>Additional Comments</label>
+            <textarea type="text"></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <p id="creator">This form created by <a target="_blank" href="https://linkedin.com/in/abdullahrazi49">Abdullah Razi</a>
+        <p>
+</body>
+
+</html>
